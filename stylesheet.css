@@ -1,0 +1,29 @@
+
+img{
+  display:flex;
+  padding:10px;
+margin:0 auto;
+  border-radius: 130px;
+}
+
+body, html {
+  height: 100%;
+  width:100%;
+  margin: 0;
+}
+.backgroundimage {
+  background-image:URL("Assets/Images/IMG_2333.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+nav>h3{
+  display:inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav{
+    margin-left:auto;
+    margin-right:auto;
+    width: 100%;
+  }
