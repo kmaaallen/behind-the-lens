@@ -9,14 +9,16 @@ body{
 
 /*About Me section styling------------------------*/
 
-#about{
-  display:flex;
-  flex-flow: row;
-  background-color: #000;
-  color:#fff;
-  height:90vh;
+.aboutimg{
+  overflow: hidden;
 }
 
+#about{
+  background-color: #000;
+  color:#fff;
+  /* height:90vh; */
+}
+/*
 h2{
   margin-left:50px;
   margin-top:120px;
@@ -52,4 +54,4 @@ footer{
   margin:0;
   height:10vh;
   background-color:#000;
-}
+}*/
