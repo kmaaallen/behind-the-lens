@@ -1,71 +1,70 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-body{
-  font-family:'Roboto', sans-serif;
-  margin:0;
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
   background-color: #000;
 }
-
-
 
 /*About Me section styling------------------------*/
-
-#about{
+#about {
   background-color: #000;
-  color:#fff;
+  color: #fff;
 }
 
-h2{
-  text-decoration:underline;
+h2 {
+  text-decoration: underline;
   letter-spacing: 10px;
-  margin-left:50px;
+  margin-left: 50px;
 }
 
-.text{
-  margin-left:50px;
-  font-size: 1.5em;
+.about_text{
+  margin-top:30vh;
 }
 
-ul{
+.text {
+  margin-top: 100px;
+  margin-left: 50px;
+  font-size: 2em;
+}
+
+ul {
   list-style: none;
   margin-left: 50px;
 }
 
-.fa{
+.fa {
   font-size: 50px;
-  color:#fff;
-  margin-right:20px;
+  color: #fff;
+  margin-right: 20px;
 }
 
-.aboutimg{
-  height:100vh;
+.aboutimg {
+  height: 100vh;
   width: 50vw;
 }
 
-footer{
+footer {
   background-color: transparent;
-  margin-top:0;
-  height:60px;
+  margin-top: 0;
+  height: 60px;
 }
 
 /*------- Gallery main page styling -------*/
-#gallery{
+#gallery {
   margin-top: 100px;
 }
 
-.gallery_link{
+.gallery_link {
   text-align: center;
-  margin-top:200px;
-  margin-bottom:200px;
+  margin-top: 200px;
+  margin-bottom: 200px;
 }
 
-.gallery_img{
+.gallery_img {
   height: 300px;
-  width:300px;
+  width: 300px;
 }
 
 /*------ Media Queries---------*/
-
-@media(max-width:992px){
-
-}
+@media(max-width:992px) {}
