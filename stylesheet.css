@@ -3,12 +3,12 @@
 body {
   font-family: 'Roboto', sans-serif;
   margin: 0;
-  background-color: #000;
+  background-color: rgb(89, 90, 91);
 }
 
 /*About Me section styling------------------------*/
 #about {
-  background-color: #000;
+  background-color: rgb(89, 90, 91);
   color: #fff;
 }
 
@@ -19,7 +19,7 @@ h2 {
 }
 
 .about_text{
-  margin-top:30vh;
+  
 }
 
 .text {
