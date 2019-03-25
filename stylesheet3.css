@@ -1,0 +1,113 @@
+
+body {
+  background-color: rgb(89, 90, 91);
+
+}
+h1{
+      text-align:left;
+      padding-left: 80px;
+      padding-top: 30px;
+      color: black;
+      font-weight: 650;
+}
+
+
+}
+
+body, html {
+  height: 100%;
+  width:100%;
+  margin: 0;
+
+}
+
+nav>h3{
+  display:inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+nav{
+    margin-left:auto;
+    margin-right:auto;
+    width: 100%;
+  }
+
+  img{
+    display:flex;
+    float: left;
+    padding:20px;
+  margin:0 auto;
+  border-left;
+  }
+
+  {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+}
+
+
+*:focus {
+	outline: 0;
+}
+
+body {
+	background: rgb(89, 90, 91);
+}
+
+h3 {
+	text-align: center;
+}
+
+.container {
+	padding: 12px 24px 24px 24px;
+	margin: 48px 12px;
+	background: rgb(53, 53, 53);
+	border-radius: 4px;
+  float: right;
+}
+
+label {
+	font-size: 0.85em;
+	margin-left: 12px;
+}
+
+input[type=text],input[type=email], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=text]:focus,input[type=email]:focus, textarea:focus {
+	border: 1px solid black;
+}
+
+input[type=submit] {
+	background: rgb(89, 90, 91);
+	margin: 0 auto;
+	outline: 0;
+	color: white;
+	border: 0;
+	padding: 12px 24px;
+	border-radius: 4px;
+	transition: all ease-in-out 0.1s;
+	position: relative;
+	display: inline-block;
+	text-align: center;
+}
+
+input[type=submit]:focus {
+	background: rgb(89, 90, 91);
+	color: whitesmoke;
+}
+
+input[type=submit]:hover {
+	background: rgb(89, 90, 91);
+}
+
+.center {
+	text-align: center;
