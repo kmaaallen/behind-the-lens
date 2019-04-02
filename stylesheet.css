@@ -75,6 +75,17 @@ footer {
   width: 300px;
 }
 
+/*-- Photogallery test -- */
+.cityscape{
+  column-count: 5;
+  column-gap:0;
+  line-height:0;
+}
+
+.photo{
+  width:100%;
+}
+
 /*-------Cityscape gallery styling - photo collage*/
 #cityscape_gallery {
   width: 70%;
