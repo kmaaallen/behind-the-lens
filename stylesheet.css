@@ -106,9 +106,9 @@ footer {
   }
 }
 */
-@media(min-width:920px) {
+@media(min-width:1200px) {
   .picture{
-    height:700px;
+    height:645px;
   }
   .cityscape {
     column-count: 4;
