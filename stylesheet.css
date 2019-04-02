@@ -23,7 +23,7 @@ body, html {
 
 }
 .backgroundimage {
-  background-image:URL("Assets/Images/IMG_2333.jpg");
+  background-image:URL("Assets/Images/bus.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -32,13 +32,24 @@ nav{
     width: 100%;
   }
 
-  img{
+    .bg-dark {
+  background-color: rgba(52, 58, 64, 0.67)!important;
+
+    }
+
+  .backgroundimage3 {
+    background-image:URL("Assets/Images/praguelake.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+/*  img{
     display:flex;
     float: left;
     padding:20px;
   margin:0 auto;
   border-left;
-  }
+  }*/
 
   {
 	font-family: 'Roboto', sans-serif;
@@ -60,15 +71,17 @@ h3 {
 
 .container {
 	padding: 12px 24px 24px 24px;
-	margin: 48px 12px;
-	background: rgb(53, 53, 53);
+/*	margin: 48px 12px;*/
+  width:60%;
+	background:rgba(52, 58, 64, 0.67);
 	border-radius: 4px;
-  float: right;
+  float: center;
 }
 
 label {
 	font-size: 0.85em;
 	margin-left: 12px;
+  color: white;
 }
 
 input[type=text],input[type=email], textarea {

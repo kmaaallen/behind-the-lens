@@ -42,6 +42,11 @@ nav{
     width: 100%;
   }
 
+    .bg-dark {
+  background-color: rgba(52, 58, 64, 0.67)!important;
+
+    }
+
   img{
     display:flex;
     float: left;
