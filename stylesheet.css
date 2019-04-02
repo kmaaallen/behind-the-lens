@@ -26,7 +26,7 @@ h2 {
 }
 
 .about_text {
-  display:block;
+  display: block;
   float: right;
 }
 
@@ -34,7 +34,7 @@ h2 {
   margin-top: 100px;
   margin-left: 50px;
   font-size: 2em;
-  width:90vw;
+  width: 90vw;
 }
 
 ul {
@@ -52,7 +52,6 @@ ul {
   height: 100vh;
   width: 50vw;
 }*/
-
 footer {
   background-color: transparent;
   margin-top: 0;
@@ -76,154 +75,19 @@ footer {
 }
 
 /*-- Photogallery test -- */
-.cityscape{
-  column-count: 5;
-  column-gap:0;
-  line-height:0;
+.picture {
+  height: 480px;
+  overflow: hidden;
 }
 
-.photo{
-  width:100%;
+.cityscape {
+  column-count: 4;
+  column-gap: 0;
+  line-height: 0;
 }
 
-/*-------Cityscape gallery styling - photo collage*/
-#cityscape_gallery {
-  width: 70%;
-  height: 100%;
-  margin-left: 50px;
-}
-
-.cityscape_title {
-  margin-bottom: 50px;
-}
-
-.relative_position {
-  position: relative;
-}
-
-#bristol {
-  position: absolute;
-  width: 400px;
-  height: 300px;
-  top: 450px;
-  left: 420px;
-}
-
-wrapper #bristol-text {
-  opacity: 0;
-  position: absolute;
-  width: 300px;
-  top: 460px;
-  left: 430px;
-  color: #fff;
-  z-index: 1;
-  font-size: 20px;
-  transition: opacity ease-in-out 1.5s;
-}
-
-wrapper:hover #bristol-text {
-  opacity: 1;
-}
-
-#sanfrancisco {
-  position: absolute;
-  height: 150px;
-  width: 300px;
-  top: 290px;
-  left: 420px;
-}
-
-#architecture1 {
-  position: absolute;
-  height: 320px;
-  width: 140px;
-  top: 250px;
-  left: 270px;
-}
-
-#london {
-  position: absolute;
-  height: 250px;
-  width: 300px;
-  top: 320px;
-  left: -40px;
-}
-
-#luxembourg {
-  position: absolute;
-  height: 200px;
-  width: 300px;
-  left: 420px;
-  top: 65px;
-}
-
-#tram {
-  position: absolute;
-  height: 350px;
-  width: 200px;
-  top: 88px;
-  left: 730px;
-}
-
-#newyork {
-  position: absolute;
-  height: 300px;
-  width: 415px;
-  top: 580px;
-  left: -5px;
-}
-
-#auckland {
-  position: absolute;
-  height: 150px;
-  width: 150px;
-  left: 260px;
-}
-
-#paris {
-  position: absolute;
-  height: 250px;
-  width: 250px;
-  top: 60px;
-}
-
-#mexico {
-  position: absolute;
-  height: 200px;
-  width: 200px;
-  left: 940px;
-}
-
-#lisbon {
-  position: absolute;
-  height: 140px;
-  width: 180px;
-  left: 940px;
-  top: 300px;
-}
-
-#architechture2 {
-  position: absolute;
-  height: 250px;
-  width: 300px;
-  top: 670px;
-  left: 830px;
-}
-
-#rome {
-  position: absolute;
-  height: 200px;
-  width: 300px;
-  left: 830px;
-  top: 450px;
-}
-
-#newyork2 {
-  position: absolute;
-  height: 200px;
-  width: 400px;
-  top: 760px;
-  left: 420px;
+.photo {
+  width: 100%;
 }
 
 /*------ Media Queries---------*/
