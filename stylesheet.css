@@ -74,7 +74,10 @@ background-color: rgba(52, 58, 64, 0.67)!important;
     border-left;
     }
 
-    ol{
+
+
+ol
+{
     list-style: none;
     justify-content: space-evenly;
     text-align:center;
@@ -82,7 +85,15 @@ background-color: rgba(52, 58, 64, 0.67)!important;
     color: black;
 
   }
+  ol
+  {
+      list-style: none;
+      justify-content: space-evenly;
+      text-align:center;
+      padding: 20px;
+      color: black;
 
+    }
 
 
   .backgroundimage3 {
