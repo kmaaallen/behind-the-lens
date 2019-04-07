@@ -77,18 +77,26 @@ footer {
 }
 
 .gallery-link-c {
+  text-decoration:none;
   position: absolute;
-  color: #000;
+  color: #fff;
   top: 10px;
   left: 120px;
 }
 
 .gallery-link-bw {
+  text-decoration:none;
   position: absolute;
   color: #fff;
   top:;
   left:;
 }
+
+a.gallery-link-c:hover,  a.gallery-link-bw:hover{
+  text-decoration:underline;
+  color:grey;
+}
+
 
 .gallery-container {
   position: relative;
@@ -105,6 +113,7 @@ footer {
   .gallery-link-c{
     top: 40px;
     left: 70%;
+    color:#fff;
   }
 }
 
@@ -118,6 +127,7 @@ footer {
   .gallery-link-c{
     top: 40px;
     left: 20px;
+    color: #000;
   }
 }
 
@@ -131,6 +141,7 @@ footer {
   .gallery-link-c{
     top: 40px;
     left: 60px;
+    color: #000;
   }
 }
 
