@@ -40,7 +40,7 @@ ul {
 }
 
 .fa {
-  font-size: 50px;
+  font-size: 30px;
   color: #fff;
 }
 
@@ -48,6 +48,7 @@ footer {
   background-color: transparent;
   margin-top: 0;
   height: 60px;
+  margin-bottom:10px;
 }
 
 /*------- Gallery main page styling -------*/
