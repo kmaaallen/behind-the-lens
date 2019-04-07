@@ -165,9 +165,9 @@ nav {
   h1{
         text-align:left;
         padding-left: 80px;
-        padding-top: 700px;
+        padding-top: 450px;
         color: white;
-        font-weight: 800;
+        font-size:4rem;
   }
 
   h6{
@@ -177,32 +177,9 @@ nav {
     color: black;
   }
 
-  h2{
-
-    color: whitesmoke;
-    padding-top: 30px;
-  }
 
 
-h1 {
-  text-align: left;
-  padding-left: 80px;
-  padding-top: 30px;
-  color: white;
-  font-weight: 650;
-}
 
-h6 {
-  text-align: center;
-  padding-top: 90px;
-  padding-bottom: 50px;
-  color: black;
-}
-
-h2 {
-  color: whitesmoke;
-  padding-top: 30px;
-}
 
 img {
   display: flex;
@@ -220,13 +197,6 @@ ol {
   color: black;
 }
 
-ol {
-  list-style: none;
-  justify-content: space-evenly;
-  text-align: center;
-  padding: 20px;
-  color: black;
-}
 
 .backgroundimage3 {
   background-image: URL("Assets/Images/praguelake.jpeg");
