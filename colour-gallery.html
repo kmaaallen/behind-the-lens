@@ -1,0 +1,67 @@
+<!<!DOCTYPE html>
+  <<!DOCTYPE html>
+    <html lang="en" dir="ltr">
+
+    <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      <link rel="stylesheet" href="stylesheet.css">
+      <title>Behind The Lens</title>
+    </head>
+
+    <body>
+
+
+<div class="picture">
+<div class="colour-gallery">
+  <div>
+      <img class="photo" src="/Users/kirstenallen/Documents/GitHub/behind-the-lens/Assets/Images/barbican.jpg" alt="The Barbican">
+      <div class="image-caption">
+        The Barbican
+      </div>
+  </div>
+
+  <img class="photo" src="/Users/kirstenallen/Documents/GitHub/behind-the-lens/Assets/Images/chinatemple.jpg" alt="A temple in China">
+  <img class="photo" src="/Users/kirstenallen/Documents/GitHub/behind-the-lens/Assets/Images/coast.jpg" alt="The Coast">
+  <img class="photo" src="/Users/kirstenallen/Documents/GitHub/behind-the-lens/Assets/Images/croatia.jpg" alt="Croatia">
+  <img class="photo" src="/Users/kirstenallen/Documents/GitHub/behind-the-lens/Assets/Images/dog.jpeg" alt="A happy dog">
+  <img class="photo" src="/Users/kirstenallen/Documents/GitHub/behind-the-lens/Assets/Images/egg.jpg" alt="The Egg">
+  <img class="photo" src="/Users/kirstenallen/Documents/GitHub/behind-the-lens/Assets/Images/louvre.jpeg" alt="The Louvre">
+  <img class="photo" src="/Users/kirstenallen/Documents/GitHub/behind-the-lens/Assets/Images/sea.jpg" alt="Man by the sea">
+  <img class="photo" src="/Users/kirstenallen/Documents/GitHub/behind-the-lens/Assets/Images/tree.jpg" alt="Tree house">
+</div>
+</div>
+
+<script type="text/javascript">
+//function displayCaption(){
+  //document.getElementByClassName("image-caption").removeClass("image-caption").addClass("image-caption-vis");
+//}
+
+//function displayCaption(){
+  //document.getElementByClassName("image-caption-vis").removeClass("image-caption-vis").addClass("image-caption");
+//}
+document.getElementByClassName("photo").addEventListener(hover, function(){
+  document.getElementByClassName("image-caption").removeClass("image-caption").addClass("image-caption-vis");
+})
+
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+
+    </body>
+
+
+    <footer>
+      <nav class="navbar fixed-bottom">
+        <ul class="nav justify-content-end">
+          <li class="nav-item">
+            <a class="nav-link facebook" href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+
+    </html>
