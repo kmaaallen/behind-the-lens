@@ -231,7 +231,7 @@ input[type=text]:focus, input[type=email]:focus, textarea:focus {
 
 input[type=submit] {
   background: rgb(89, 90, 91);
-  margin: 0 auto;
+  margin: 0 auto 50px 0;
   outline: 0;
   color: white;
   border: 0;
