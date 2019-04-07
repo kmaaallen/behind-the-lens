@@ -201,7 +201,7 @@ wrapper:hover p {
 }
 
 .backgroundimage {
-  background-image: URL("Assets/Images/bus.jpg");
+  background-image: url("/Users/kirstenallen/Documents/GitHub/behind-the-lens/assets/images/bus.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -224,16 +224,18 @@ nav {
     padding-left: 20px;
 }
 
-.navbar-nav {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    padding-left: 0;
-    margin-bottom: 0;
-    list-style: none;
-    background-color: rgba(52, 58, 64, 0.9);
-    width: 200px;
+@media(max-width:991px){
+  .navbar-nav {
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      padding-left: 0;
+      margin-bottom: 0;
+      list-style: none;
+      background-color: rgba(52, 58, 64, 0.9);
+      width: 200px;
+  }
 }
 
 button:focus {
@@ -279,7 +281,7 @@ ol {
 
 
 .backgroundimage3 {
-  background-image: URL("Assets/Images/praguelake.jpeg");
+  background-image: URL("/Users/kirstenallen/Documents/GitHub/behind-the-lens/assets/images/praguelake.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
