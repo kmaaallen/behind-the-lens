@@ -11,11 +11,10 @@ body {
   color: #fff;
   width: 100vw;
   padding-top: 50px;
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
 h2 {
-  text-decoration: underline;
   letter-spacing: 10px;
   margin-left: 50px;
   color: whitesmoke;
@@ -45,10 +44,6 @@ ul {
   color: #fff;
 }
 
-/*.aboutimg {
-  height: 100vh;
-  width: 50vw;
-}*/
 footer {
   background-color: transparent;
   margin-top: 0;
@@ -73,6 +68,7 @@ footer {
   object-fit: cover;
   float: none;
   overflow-x: hidden;
+
 }
 
 .col-lg-6 {
@@ -82,8 +78,8 @@ footer {
 .gallery-link-c {
   position: absolute;
   color: #000;
-  top: 40px;
-  left: 20px;
+  top: 10px;
+  left: 120px;
 }
 
 .gallery-link-bw {
@@ -105,6 +101,10 @@ footer {
     top: 65%;
     left: 70%;
   }
+  .gallery-link-c{
+    top: 40px;
+    left: 70%;
+  }
 }
 
 @media(min-width: 992px){
@@ -113,6 +113,10 @@ footer {
     color: #fff;
     top: 75%;
     left: 75%;
+  }
+  .gallery-link-c{
+    top: 40px;
+    left: 20px;
   }
 }
 
@@ -123,6 +127,10 @@ footer {
     top: 80%;
     left: 80%;
   }
+  .gallery-link-c{
+    top: 40px;
+    left: 60px;
+  }
 }
 
 
@@ -130,13 +138,13 @@ footer {
 /*-- Photogallery test -- */
 .picture {
   height: 100vh;
+  margin-top:50px;
 }
 
 .colour-gallery {
   column-count: 3;
   column-gap: 0px;
   line-height: 0;
-  break-inside: avoid;
 }
 
 .photo{
@@ -185,9 +193,10 @@ wrapper:hover p {
 
 .img-one {
   display: flex;
-  padding: 10px;
+  padding: 20px;
   margin: 0 auto;
-  border-radius: 130px;
+  border-radius: 0px;
+  width: 80%;
 }
 
 .backgroundimage {
@@ -205,42 +214,68 @@ nav>h3 {
 }
 
 nav {
-  min-height:50px;
-  margin-left: auto;
-  margin-right: auto;
+  height: 50px;
   width: 100%;
+}
+
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 20px;
+}
+
+.navbar-nav {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    background-color: rgba(52, 58, 64, 0.9);
+    width: 200px;
+}
+
+button:focus {
+    outline: 1px dotted;
+    outline: none;
 }
 
 .bg-dark {
   background-color: rgba(52, 58, 64, 0.67) !important;
-}
-h1 {
-  text-align: left;
-  padding-left: 80px;
-  padding-top: 30px;
-  color: white;
-  font-weight: 650;
-}
 
-h6 {
-  text-align: center;
-  padding-top: 90px;
-  padding-bottom: 50px;
-  color: black;
-}
 
-h2 {
-  color: whitesmoke;
-  padding-top: 30px;
 }
+  h1{
+        text-align:left;
+        padding-left: 80px;
+        padding-top: 450px;
+        color: white;
+        font-size:4rem;
+  }
+
+  h6{
+    text-align:center;
+    padding-top: 50px;
+    padding-right: 40px;
+    color: whitesmoke;
+    font-size:1.3rem;
+  }
+
+
+
+
+
 
 ol {
   list-style: none;
   justify-content: space-evenly;
   text-align: center;
-  padding: 20px;
-  color: black;
+  padding-left : 50px;
+  padding-right : 50px;
+  padding-top : 100px;
+  color: whitesmoke;
 }
+
 
 .backgroundimage3 {
   background-image: URL("Assets/Images/praguelake.jpeg");
@@ -268,6 +303,11 @@ h3 {
   background: rgba(52, 58, 64, 0.67);
   border-radius: 4px;
   float: center;
+}
+
+.container-fluid{
+  padding-left: 0px;
+  padding-right: 0px;
 }
 
 label {
