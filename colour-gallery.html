@@ -1,67 +1,101 @@
-<!<!DOCTYPE html>
-  <<!DOCTYPE html>
-    <html lang="en" dir="ltr">
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
 
-    <head>
-      <meta charset="utf-8">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-      <link rel="stylesheet" href="stylesheet.css">
-      <title>Behind The Lens</title>
-    </head>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="stylesheet.css">
+  <title>Behind The Lens</title>
+</head>
 
-    <body>
+<body>
 
 
-<div class="picture">
-<div class="colour-gallery">
-  <div>
-      <img class="photo" src="/Users/kirstenallen/Documents/GitHub/behind-the-lens/Assets/Images/barbican.jpg" alt="The Barbican">
-      <div class="image-caption">
-        The Barbican
-      </div>
+  <div class="picture">
+    <div class="colour-gallery">
+
+      <wrapper>
+        <img id="barbican" class="photo" src="/Users/kirstenallen/Documents/GitHub/behind-the-lens/Assets/Images/barbican.jpg" alt="The Barbican">
+        <p id="barbican-text" class="image-caption">
+          The Barbican
+        </p>
+      </wrapper>
+
+      <wrapper>
+        <img id="chinaTemple" class="photo" src="/Users/kirstenallen/Documents/GitHub/behind-the-lens/Assets/Images/chinatemple.jpg" alt="A temple in China">
+        <p id="chinaTemple-text" class="image-caption">
+          China Temple
+        </p>
+      </wrapper>
+
+      <wrapper>
+        <img id="coast" class="photo" src="/Users/kirstenallen/Documents/GitHub/behind-the-lens/Assets/Images/coast.jpg" alt="The Coast">
+        <p id="coast-text" class="image-caption">
+          The Coast
+        </p>
+      </wrapper>
+
+      <wrapper>
+        <img id="croatia" class="photo" src="/Users/kirstenallen/Documents/GitHub/behind-the-lens/Assets/Images/croatia.jpg" alt="Croatia">
+        <p id="croatia-text" class="image-caption">
+          Croatia
+        </p>
+      </wrapper>
+
+      <wrapper>
+        <img id="dog" class="photo" src="/Users/kirstenallen/Documents/GitHub/behind-the-lens/Assets/Images/dog.jpeg" alt="A happy dog">
+        <p id="dog-text" class="image-caption">
+          A happy dog
+        </p>
+      </wrapper>
+
+      <wrapper>
+        <img id="egg" class="photo" src="/Users/kirstenallen/Documents/GitHub/behind-the-lens/Assets/Images/egg.jpg" alt="The Egg">
+        <p id="egg-text" class="image-caption">
+          The Egg
+        </p>
+      </wrapper>
+
+      <wrapper>
+        <img id="louvre" class="photo" src="/Users/kirstenallen/Documents/GitHub/behind-the-lens/Assets/Images/louvre.jpeg" alt="The Louvre">
+        <p id="louvre-text" class="image-caption">
+          The Louvre
+        </p>
+      </wrapper>
+
+      <wrapper>
+        <img id="sea" class="photo" src="/Users/kirstenallen/Documents/GitHub/behind-the-lens/Assets/Images/sea.jpg" alt="Man by the sea">
+        <p id="sea-text" class="image-caption">
+          Man by the sea
+        </p>
+      </wrapper>
+
+      <wrapper>
+        <img id="tree" class="photo" src="/Users/kirstenallen/Documents/GitHub/behind-the-lens/Assets/Images/tree.jpg" alt="Tree house">
+        <p id="tree-text" class="image-caption">
+          Tree house
+        </p>
+      </wrapper>
+    </div>
   </div>
 
-  <img class="photo" src="/Users/kirstenallen/Documents/GitHub/behind-the-lens/Assets/Images/chinatemple.jpg" alt="A temple in China">
-  <img class="photo" src="/Users/kirstenallen/Documents/GitHub/behind-the-lens/Assets/Images/coast.jpg" alt="The Coast">
-  <img class="photo" src="/Users/kirstenallen/Documents/GitHub/behind-the-lens/Assets/Images/croatia.jpg" alt="Croatia">
-  <img class="photo" src="/Users/kirstenallen/Documents/GitHub/behind-the-lens/Assets/Images/dog.jpeg" alt="A happy dog">
-  <img class="photo" src="/Users/kirstenallen/Documents/GitHub/behind-the-lens/Assets/Images/egg.jpg" alt="The Egg">
-  <img class="photo" src="/Users/kirstenallen/Documents/GitHub/behind-the-lens/Assets/Images/louvre.jpeg" alt="The Louvre">
-  <img class="photo" src="/Users/kirstenallen/Documents/GitHub/behind-the-lens/Assets/Images/sea.jpg" alt="Man by the sea">
-  <img class="photo" src="/Users/kirstenallen/Documents/GitHub/behind-the-lens/Assets/Images/tree.jpg" alt="Tree house">
-</div>
-</div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
 
-<script type="text/javascript">
-//function displayCaption(){
-  //document.getElementByClassName("image-caption").removeClass("image-caption").addClass("image-caption-vis");
-//}
-
-//function displayCaption(){
-  //document.getElementByClassName("image-caption-vis").removeClass("image-caption-vis").addClass("image-caption");
-//}
-document.getElementByClassName("photo").addEventListener(hover, function(){
-  document.getElementByClassName("image-caption").removeClass("image-caption").addClass("image-caption-vis");
-})
-
-</script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
-
-    </body>
+</body>
 
 
-    <footer>
-      <nav class="navbar fixed-bottom">
-        <ul class="nav justify-content-end">
-          <li class="nav-item">
-            <a class="nav-link facebook" href="#" target="_blank"><i class="fa fa-facebook"></i></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#" target="_blank"><i class="fa fa-instagram"></i></a>
-          </li>
-        </ul>
-      </nav>
-    </footer>
+<footer>
+  <nav class="navbar fixed-bottom">
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link facebook" href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" target="_blank"><i class="fa fa-instagram"></i></a>
+      </li>
+    </ul>
+  </nav>
+</footer>
 
-    </html>
+</html>
