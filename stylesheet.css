@@ -66,15 +66,71 @@ footer {
 }
 
 .gallery_link {
+  color: #000;
   text-align: center;
-  margin-top: 200px;
-  margin-bottom: 200px;
+  margin-top: 100px;
+  margin-bottom: 50px;
 }
 
 .gallery_img {
-  height: 300px;
-  width: 300px;
+  height: 50vw;
+  width: 50vw;
+  object-fit: cover;
+  float: none;
+  overflow-x: hidden;
 }
+
+.col-lg-6 {
+  padding-left: 0;
+}
+
+.gallery-link-c {
+  position: absolute;
+  color: #000;
+  top: 40px;
+  left: 20px;
+}
+
+.gallery-link-bw {
+  position: absolute;
+  color: #fff;
+  top:;
+  left:;
+}
+
+.gallery-container {
+  position: relative;
+  font-size: 30px;
+}
+
+@media(min-width: 600px){
+  .gallery-link-bw {
+    position: absolute;
+    color: #fff;
+    top: 65%;
+    left: 70%;
+  }
+}
+
+@media(min-width: 992px){
+  .gallery-link-bw {
+    position: absolute;
+    color: #fff;
+    top: 75%;
+    left: 75%;
+  }
+}
+
+@media(min-width: 1200px){
+  .gallery-link-bw {
+    position: absolute;
+    color: #fff;
+    top: 80%;
+    left: 80%;
+  }
+}
+
+
 
 /*-- Photogallery test -- */
 .picture {
@@ -101,13 +157,6 @@ footer {
   }
 }
 
-/*@media(max-width:992px) {
-  .picture {
-    height: 500px;
-    overflow: hidden;
-  }
-}
-*/
 @media(min-width:1200px) {
   .picture {
     height: 645px;
@@ -125,13 +174,6 @@ footer {
   padding: 10px;
   margin: 0 auto;
   border-radius: 130px;
-}
-
-body, html {
-  height: 100%;
-  font-style:
-    width:100%;
-  margin: 0;
 }
 
 .backgroundimage {
@@ -157,33 +199,6 @@ nav {
 .bg-dark {
   background-color: rgba(52, 58, 64, 0.67) !important;
 }
-
-  body {
-    background-color: rgb(89, 90, 91);
-  }
-
-  h1{
-        text-align:left;
-        padding-left: 80px;
-        padding-top: 700px;
-        color: white;
-        font-weight: 800;
-  }
-
-  h6{
-    text-align:center;
-    padding-top: 90px;
-    padding-bottom: 50px;
-    color: black;
-  }
-
-  h2{
-
-    color: whitesmoke;
-    padding-top: 30px;
-  }
-
-
 h1 {
   text-align: left;
   padding-left: 80px;
@@ -202,22 +217,6 @@ h6 {
 h2 {
   color: whitesmoke;
   padding-top: 30px;
-}
-
-img {
-  display: flex;
-  float: left;
-  padding: 20px;
-  margin: 0 auto;
-  border-left;
-}
-
-ol {
-  list-style: none;
-  justify-content: space-evenly;
-  text-align: center;
-  padding: 20px;
-  color: black;
 }
 
 ol {
