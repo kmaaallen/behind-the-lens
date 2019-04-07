@@ -135,22 +135,40 @@ footer {
 /*-- Photogallery test -- */
 .picture {
   height: 100vh;
-
 }
 
-.cityscape {
+.colour-gallery {
   column-count: 3;
-  column-gap: 0;
+  column-gap: 0px;
   line-height: 0;
 }
 
-.photo {
+.photo{
   width: 100%;
 }
 
+wrapper{
+  display:inline-grid;
+}
+
+wrapper p{
+  opacity: 0;
+  position:absolute;
+  transform:translate(10px,20px);
+  color:#fff;
+  z-index:1;
+  font-size:20px;
+  transition: opacity ease-in-out 1.5s;
+}
+
+wrapper:hover p {
+  opacity:1;
+}
+
+
 /*------ Media Queries---------*/
 @media(max-width:768px) {
-  .cityscape {
+  .colour-gallery {
     column-count: 2;
     column-gap: 0;
     line-height: 0;
@@ -159,11 +177,11 @@ footer {
 
 @media(min-width:1200px) {
   .picture {
-    height: 645px;
+    height: 100vh;
   }
 
-  .cityscape {
-    column-count: 4;
+  .colour-gallery {
+    column-count: 3;
     column-gap: 0;
     line-height: 0;
   }
@@ -192,8 +210,7 @@ nav>h3 {
 }
 .navbar
 nav {
-  margin-left: 0;
-  margin-right:0;
+  min-height: 50px;
   width: 100%;
 }
 
