@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 body {
@@ -26,7 +25,6 @@ h2 {
   margin-left: 50px;
   color: whitesmoke;
   padding-top: 30px;
-
 }
 
 .about_text {
@@ -111,9 +109,10 @@ footer {
 }
 */
 @media(min-width:1200px) {
-  .picture{
-    height:645px;
+  .picture {
+    height: 645px;
   }
+
   .cityscape {
     column-count: 4;
     column-gap: 0;
@@ -121,47 +120,43 @@ footer {
   }
 }
 
-
-.img-one{
-  display:flex;
-  padding:10px;
-margin:0 auto;
+.img-one {
+  display: flex;
+  padding: 10px;
+  margin: 0 auto;
   border-radius: 130px;
 }
-
 
 body, html {
   height: 100%;
   font-style:
-  width:100%;
+    width:100%;
   margin: 0;
-
 }
+
 .backgroundimage {
-  background-image:URL("Assets/Images/bus.jpg");
+  background-image: URL("Assets/Images/bus.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height:100vh;
+  height: 100vh;
 }
-nav>h3{
-  display:inline-block;
+
+nav>h3 {
+  display: inline-block;
   margin-left: auto;
   margin-right: auto;
 }
-nav{
-    margin-left:auto;
-    margin-right:auto;
-    width: 100%;
 
-  }
+nav {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
 
-  .bg-dark {
-background-color: rgba(52, 58, 64, 0.67)!important;
-
-  }
-
-
+.bg-dark {
+  background-color: rgba(52, 58, 64, 0.67) !important;
+}
 
   body {
     background-color: rgb(89, 90, 91);
@@ -189,109 +184,121 @@ background-color: rgba(52, 58, 64, 0.67)!important;
   }
 
 
-  img{
-      display:flex;
-      float: left;
-      padding:20px;
-    margin:0 auto;
-    border-left;
-    }
+h1 {
+  text-align: left;
+  padding-left: 80px;
+  padding-top: 30px;
+  color: white;
+  font-weight: 650;
+}
 
+h6 {
+  text-align: center;
+  padding-top: 90px;
+  padding-bottom: 50px;
+  color: black;
+}
 
+h2 {
+  color: whitesmoke;
+  padding-top: 30px;
+}
 
-ol
-{
-    list-style: none;
-    justify-content: space-evenly;
-    text-align:center;
-    padding: 20px;
-    color: black;
+img {
+  display: flex;
+  float: left;
+  padding: 20px;
+  margin: 0 auto;
+  border-left;
+}
 
-  }
-  ol
-  {
-      list-style: none;
-      justify-content: space-evenly;
-      text-align:center;
-      padding: 20px;
-      color: black;
+ol {
+  list-style: none;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 20px;
+  color: black;
+}
 
-    }
+ol {
+  list-style: none;
+  justify-content: space-evenly;
+  text-align: center;
+  padding: 20px;
+  color: black;
+}
 
-
-  .backgroundimage3 {
-    background-image:URL("Assets/Images/praguelake.jpeg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-
+.backgroundimage3 {
+  background-image: URL("Assets/Images/praguelake.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
 *:focus {
-	outline: 0;
+  outline: 0;
 }
 
 body {
-	background: rgb(89, 90, 91);
+  background: rgb(89, 90, 91);
 }
 
 h3 {
-	text-align: center;
+  text-align: center;
 }
 
 .container {
-	padding: 12px 24px 24px 24px;
-/*	margin: 48px 12px;*/
-  width:60%;
-	background:rgba(52, 58, 64, 0.67);
-	border-radius: 4px;
+  padding: 12px 24px 24px 24px;
+  /*	margin: 48px 12px;*/
+  width: 60%;
+  background: rgba(52, 58, 64, 0.67);
+  border-radius: 4px;
   float: center;
 }
 
 label {
-	font-size: 0.85em;
-	margin-left: 12px;
+  font-size: 0.85em;
+  margin-left: 12px;
   color: white;
 }
 
-input[type=text],input[type=email], textarea {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-top: 6px;
-    margin-bottom: 16px;
-    resize: vertical;
+input[type=text], input[type=email], textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
 }
 
-input[type=text]:focus,input[type=email]:focus, textarea:focus {
-	border: 1px solid black;
+input[type=text]:focus, input[type=email]:focus, textarea:focus {
+  border: 1px solid black;
 }
 
 input[type=submit] {
-	background: rgb(89, 90, 91);
-	margin: 0 auto;
-	outline: 0;
-	color: white;
-	border: 0;
-	padding: 12px 24px;
-	border-radius: 4px;
-	transition: all ease-in-out 0.1s;
-	position: relative;
-	display: inline-block;
-	text-align: center;
+  background: rgb(89, 90, 91);
+  margin: 0 auto;
+  outline: 0;
+  color: white;
+  border: 0;
+  padding: 12px 24px;
+  border-radius: 4px;
+  transition: all ease-in-out 0.1s;
+  position: relative;
+  display: inline-block;
+  text-align: center;
 }
 
 input[type=submit]:focus {
-	background: rgb(89, 90, 91);
-	color: whitesmoke;
+  background: rgb(89, 90, 91);
+  color: whitesmoke;
 }
 
 input[type=submit]:hover {
-	background: rgb(89, 90, 91);
+  background: rgb(89, 90, 91);
 }
 
 .center {
-	text-align: center;
+  text-align: center;
