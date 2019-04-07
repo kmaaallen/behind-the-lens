@@ -134,11 +134,10 @@ footer {
 
 /*-- Photogallery test -- */
 .picture {
-  height: 480px;
-  overflow: hidden;
+  height: 100vh;
 }
 
-.cityscape {
+.colour-gallery {
   column-count: 3;
   column-gap: 0;
   line-height: 0;
@@ -147,6 +146,20 @@ footer {
 .photo {
   width: 100%;
 }
+
+.image-caption{
+  display: none;
+  color: #fff;
+  transform: translate(20px,-20px);
+}
+
+.image-caption-vis{
+  display: block;
+  color: #fff;
+  transform: translate(20px,-20px);
+}
+
+
 
 /*------ Media Queries---------*/
 @media(max-width:768px) {
