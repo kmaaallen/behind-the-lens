@@ -8,15 +8,10 @@ body {
 
 /*About Me section styling------------------------*/
 #about {
-  /*background-color: rgb(89, 90, 91);*/
-  background-image: url(/Users/kirstenallen/Documents/GitHub/behind-the-lens/Assets/Images/gondola.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom;
   color: #fff;
-  height: 100vh;
   width: 100vw;
   padding-top: 50px;
+  margin-bottom:20px;
 }
 
 h2 {
