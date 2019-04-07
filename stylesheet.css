@@ -134,8 +134,8 @@ footer {
 
 /*-- Photogallery test -- */
 .picture {
-  height: 480px;
-  overflow: hidden;
+  height: 100vh;
+
 }
 
 .cityscape {
