@@ -151,6 +151,12 @@ a.gallery-link-c:hover, a.gallery-link-bw:hover {
   line-height: 0;
 }
 
+.black-and-white {
+  column-count: 3;
+  column-gap: 0px;
+  line-height: 0;
+}
+
 .photo {
   width: 100%;
 }
