@@ -132,6 +132,14 @@ a.gallery-link-c:hover, a.gallery-link-bw:hover {
   font-size: 30px;
 }
 
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: 0px;
+    margin-left: 0px;
+}
 /*---- Photogallery styling -------------------------- */
 .picture {
   height: 100vh;
