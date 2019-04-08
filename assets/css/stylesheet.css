@@ -50,7 +50,7 @@ h1 {
 }
 
 .backgroundimage {
-  background-image: url("Assets/Images/bus.jpg");
+  background-image: url("assets/images/bus.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -201,7 +201,7 @@ ol {
 /*----Contact page styling------------------------*/
 
 .backgroundimage3 {
-  background-image: URL("Assets/Images/lake.jpeg");
+  background-image: URL("assets/images/lake.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
