@@ -50,7 +50,7 @@ h1 {
 }
 
 .backgroundimage {
-  background-image: url("assets/images/bus.jpg");
+  background-image: url("/Users/kirstenallen/Documents/GitHub/behind-the-lens/assets/images/bus.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -201,7 +201,7 @@ ol {
 /*----Contact page styling------------------------*/
 
 .backgroundimage3 {
-  background-image: URL("assets/images/lake.jpeg");
+  background-image: URL("/Users/kirstenallen/Documents/GitHub/behind-the-lens/assets/images/lake.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
