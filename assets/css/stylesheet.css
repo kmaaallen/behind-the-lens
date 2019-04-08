@@ -89,6 +89,10 @@ h2 {
   width: 90vw;
 }
 
+.quote{
+  font-style: italic;
+}
+
 /*------- Gallery main page styling -------*/
 #gallery {
   margin-top: 100px;
