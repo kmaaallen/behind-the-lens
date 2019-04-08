@@ -50,7 +50,7 @@ h1 {
 }
 
 .backgroundimage {
-  background-image: url("/Users/kirstenallen/Documents/GitHub/behind-the-lens/assets/images/bus.jpg");
+  background-image: url("assets/Images/bus.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -193,7 +193,7 @@ ol {
 }
 
 .backgroundimage3 {
-  background-image: URL("/Users/kirstenallen/Documents/GitHub/behind-the-lens/assets/images/praguelake.jpeg");
+  background-image: URL("assets/Images/praguelake.jpeg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
