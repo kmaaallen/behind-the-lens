@@ -198,6 +198,8 @@ ol {
   color: whitesmoke;
 }
 
+/*----Contact page styling------------------------*/
+
 .backgroundimage3 {
   background-image: URL("Assets/Images/praguelake.jpeg");
   background-position: center;
@@ -213,7 +215,15 @@ h3 {
   text-align: center;
 }
 
-/*----Contact page styling------------------------*/
+.container {
+  padding: 12px 24px 24px 24px;
+  width: 60%;
+  background: rgba(52, 58, 64, 0.67);
+  border-radius: 4px;
+  float: center;
+}
+
+
 label {
   font-size: 0.85em;
   margin-left: 12px;
