@@ -289,7 +289,7 @@ footer {
 @media(min-width: 600px) {
   .gallery-link-bw {
     position: absolute;
-    color: #000;
+    color: #fff;
     top: 65%;
     left: 70%;
   }
@@ -297,7 +297,7 @@ footer {
   .gallery-link-c {
     top: 40px;
     left: 70%;
-    color: #fff;
+    color: #000;
   }
 }
 
