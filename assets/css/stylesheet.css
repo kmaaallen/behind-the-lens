@@ -92,7 +92,7 @@ h2 {
 
 .photograper_img {
   height: 40vw;
-  width: 40vw;
+  width: 30vw;
   object-fit: cover;
   float: none;
   overflow-x: hidden;
