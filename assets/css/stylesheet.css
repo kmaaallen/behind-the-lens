@@ -50,7 +50,7 @@ h1 {
 }
 
 .backgroundimage {
-  background-image:url(../images/bus.jpg);
+  background-image: url(../images/bus.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -97,6 +97,7 @@ h2 {
   float: none;
   overflow-x: hidden;
 }
+
 /*------- Gallery main page styling -------*/
 #gallery {
   margin-top: 100px;
@@ -141,13 +142,14 @@ a.gallery-link-c:hover, a.gallery-link-bw:hover {
 }
 
 .row {
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: 0px;
-    margin-left: 0px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: 0px;
+  margin-left: 0px;
 }
+
 /*---- Photogallery styling -------------------------- */
 .picture {
   height: 100vh;
@@ -205,11 +207,10 @@ ol {
   padding-right: 50px;
   padding-top: 100px;
   color: whitesmoke;
-  font-size:25px;
+  font-size: 25px;
 }
 
 /*----Contact page styling------------------------*/
-
 .backgroundimage3 {
   background-image: url(../images/lake.jpeg);
   background-position: center;
@@ -232,7 +233,6 @@ h3 {
   border-radius: 4px;
   float: center;
 }
-
 
 label {
   font-size: 0.85em;
@@ -280,6 +280,10 @@ input[type=submit]:hover {
 
 .center {
   text-align: center;
+}
+
+#success {
+  color: #fff;
 }
 
 /*----Footer section styling------------------------*/
