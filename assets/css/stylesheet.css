@@ -41,13 +41,6 @@ h1 {
   font-size: 4rem;
 }
 
-.img-one {
-  display: flex;
-  padding: 20px;
-  margin: 0 auto;
-  border-radius: 0px;
-  width: 80%;
-}
 
 .backgroundimage {
   background-image: url(../images/bus.jpg);
@@ -86,16 +79,27 @@ h2 {
   margin-top: 100px;
   margin-left: 50px;
   font-size: 2em;
-  width: 90vw;
+  width: 40vw;
   font-style: italic;
+  padding-top: 30px;
+}
+
+.intro {
+  margin-top: 100px;
+  margin-left: 50px;
+  font-size: 2em;
+  width: 40vw;
+  padding-top: 20px;
 }
 
 .photograper_img {
-  height: 40vw;
-  width: 30vw;
-  object-fit: cover;
+  width: 80%;
   float: none;
   overflow-x: hidden;
+  display: flex;
+  padding: 10px;
+  margin: 35px ;
+  border-radius: 0px;
 }
 
 /*------- Gallery main page styling -------*/
@@ -182,7 +186,7 @@ wrapper p {
   transform: translate(10px, 20px);
   color: #fff;
   z-index: 1;
-  font-size: 20px;
+  font-size: 37px;
   transition: opacity ease-in-out 1.5s;
 }
 
@@ -210,9 +214,17 @@ ol {
   font-size: 25px;
 }
 
+.img-one {
+  display: flex;
+  padding: 10px;
+  margin: 35px ;
+  border-radius: 0px;
+  width: 80%;
+}
+
 /*----Contact page styling------------------------*/
 .backgroundimage3 {
-  background-image: url(../images/lake.jpeg);
+  background-image: url(../images/streets.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
