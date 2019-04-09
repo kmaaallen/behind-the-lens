@@ -20,7 +20,7 @@
             document.getElementById('contact-form').addEventListener('submit', function(event) {
                 event.preventDefault();
                 this.contact_number.value = Math.random() * 100000 | 0;
-                emailjs.sendForm('contact_service', 'template_Z3JUSPb5', this);
+                emailjs.sendForm('gmail', 'template_Z3JUSPb5', this);
             });
         }
     </script>
