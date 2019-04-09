@@ -93,13 +93,12 @@ h2 {
 }
 
 .photograper_img {
-  height: 40vw;
-  width: 30vw;
+  width: 80%;
   float: none;
   overflow-x: hidden;
   display: flex;
-  padding: 20px;
-  margin: 0 auto;
+  padding: 10px;
+  margin: 35px ;
   border-radius: 0px;
 }
 /*------- Gallery main page styling -------*/
@@ -215,8 +214,8 @@ ol {
 
 .img-one {
   display: flex;
-  padding: 20px;
-  margin: 0 auto;
+  padding: 10px;
+  margin: 35px ;
   border-radius: 0px;
   width: 80%;
 }
@@ -224,7 +223,7 @@ ol {
 /*----Contact page styling------------------------*/
 
 .backgroundimage3 {
-  background-image: url(../images/lake.jpeg);
+  background-image: url(../images/streets.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
