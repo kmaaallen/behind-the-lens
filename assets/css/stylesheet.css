@@ -41,13 +41,6 @@ h1 {
   font-size: 4rem;
 }
 
-.img-one {
-  display: flex;
-  padding: 20px;
-  margin: 0 auto;
-  border-radius: 0px;
-  width: 80%;
-}
 
 .backgroundimage {
   background-image:url(../images/bus.jpg);
@@ -86,16 +79,28 @@ h2 {
   margin-top: 100px;
   margin-left: 50px;
   font-size: 2em;
-  width: 90vw;
+  width: 40vw;
   font-style: italic;
+  padding-top: 30px;
+}
+
+.intro {
+  margin-top: 100px;
+  margin-left: 50px;
+  font-size: 2em;
+  width: 40vw;
+  padding-top: 20px;
 }
 
 .photograper_img {
   height: 40vw;
   width: 30vw;
-  object-fit: cover;
   float: none;
   overflow-x: hidden;
+  display: flex;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 0px;
 }
 /*------- Gallery main page styling -------*/
 #gallery {
@@ -206,6 +211,14 @@ ol {
   padding-top: 100px;
   color: whitesmoke;
   font-size:25px;
+}
+
+.img-one {
+  display: flex;
+  padding: 20px;
+  margin: 0 auto;
+  border-radius: 0px;
+  width: 80%;
 }
 
 /*----Contact page styling------------------------*/
