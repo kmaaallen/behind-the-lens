@@ -20,7 +20,7 @@
             document.getElementById('contact-form').addEventListener('submit', function(event) {
                 event.preventDefault();
                 this.contact_number.value = Math.random() * 100000 | 0;
-                emailjs.sendForm('contact_service', 'template_Z3JUSPb5', this);
+                emailjs.sendForm('gmail', 'template_Z3JUSPb5', this);
             });
         }
     </script>
@@ -121,7 +121,7 @@
       <h2> CONTACT US</h2>
       <div class="container">
 
-        <form action="#" id="contact-form">
+        <form id="contact-form">
           <label id="first_name" for="first_name">First Name</label>
           <input name="first_name" type="text" required placeholder="John" />
           <br>
